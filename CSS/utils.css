@@ -1,0 +1,39 @@
+/* Mobile version */
+@media (max-width: 425px) and (min-width: 360px) {
+  .navigation {
+    padding: 0.5rem 1rem;
+  }
+
+  .list-inline-items {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .hero .hero-img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+  }
+
+  .container-center {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .ticons {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .ow {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+  }
+
+  .footer ul {
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
