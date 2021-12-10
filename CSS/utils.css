@@ -1,5 +1,5 @@
 /* Mobile version */
-@media (max-width: 425px) and (min-width: 360px) {
+@media (max-width: 650px) and (min-width: 360px) {
   .navigation {
     padding: 0.5rem 1rem;
   }
@@ -35,5 +35,19 @@
     padding-inline-start: 0px;
     display: flex;
     justify-content: space-evenly;
+  }
+  /* project page  */
+  .spLink {
+    display: block;
+    text-align: center;
+  }
+  /* grid code */
+  .grid {
+    grid-auto-rows: auto;
+    grid-template-columns: auto;
+  }
+  .hero {
+    padding: 0rem;
+    padding-top: 5rem;
   }
 }
