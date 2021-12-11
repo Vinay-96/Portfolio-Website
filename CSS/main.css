@@ -161,7 +161,7 @@ hr {
   border: 1px solid white;
   color: black;
   border-radius: 15%;
-  transition: 1.5s;
+  transition: 1s;
 }
 .fa:hover {
   background-color: white;

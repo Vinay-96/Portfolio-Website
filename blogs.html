@@ -8,6 +8,7 @@
     <title>Blogs</title>
     <link rel="stylesheet" href="/CSS/main.css">
     <link rel="stylesheet" href="/CSS/utils.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,26 +24,31 @@
         <img class="hero-img" src="/images/blogs.svg" alt="">
         <h1 class="hero-heading"> My <span class="heading-inverted">blogs</span></h1>
     </header>
-    <ul class="list-non-bullets">
-        <li>
-            <div class="container container-center ">
-                <h1>How i shifted from civil site engineer to software
-                    developer</a></h1>
-                <small>Complete beginner - level zero</small>
-                <P>I was working in construction company as site engineer who is responsible for structural design and
-                    exceution....... <strong>covid crisis</strong></P>
-                <a class="link primary-link" href="enlightening.html">Read more</a>
-            </div>
-        </li>
-        <li>
-            <div class="container container-center ">
-                <h1> <a href="/"></a>Upcoming Blog Stay tuned..!</h1>
-                <small>Achee din (A good day)</small>
-                <P><strong>DAY ONE.!</strong></P>
-                <a class="link primary-link" href="">Read more</a>
-            </div>
-        </li>
-    </ul>
+    <section class="grid">
+        <div class="gridContainer" data-aos="zoom-in-left">
+            <h1>How i shifted from civil site engineer to software
+                developer</a></h1>
+            <small>Complete beginner - level zero</small>
+            <P>I was working in construction company as site engineer who is responsible for structural design and
+                exceution....... <strong>covid crisis</strong></P>
+            <a class="link primary-link" href="enlightening.html">Read more</a>
+        </div>
+
+
+        <div class="gridContainer" data-aos="zoom-in-right">
+            <h1> <a href="/"></a>Upcoming Blog Stay tuned..!</h1>
+            <small>Achee din (A good day)</small>
+            <P><strong>DAY ONE.!</strong></P>
+            <a class="link primary-link" href="">Read more</a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
 </body>
 
 </html>
